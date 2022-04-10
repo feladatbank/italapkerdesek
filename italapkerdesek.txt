@@ -1,0 +1,74 @@
+1.Melyik állítás igaz egy Cisco IOS eszközön az aktív konfigurációs fájlra?
+A, A forgalomirányító újraindításakor automatikusan mentődik.
+B, Az NVRAM-ban tárolódik.
+C, Törölhető, ha kiadjuk az erase running-config parancsot.
+D, Módosítása azonnali hatással van az eszköz működésére.
+Helyes válasz: D
+
+2. A felhasználói EXEC módot tekintve melyik két állítás helyes? (Két jó válasz van.)
+A, Az interfészek és az irányító protokollok konfigurálhatóak.
+B, A router minden parancsa használható.
+C, A router konfigurációjának csak bizonyos részletei tekinthetőek meg.
+D, A globális konfigurációs mód elérhető az enable parancsal.
+E, Az eszköz erre a módra vonatkozó jelzése a ">" szimbólummal végződik.
+Helyes válasz: C,E
+
+3. Minek a védelmét biztosítja az enable secret parancs egy Cisco routeren vagy switch-en?
+A, Privileged EXEC
+B, Konzolvonal.
+C, AUX port.
+D, Virtuális terminált.
+Helyes válasz: A
+
+4. Mi az alapértelmezett SVI egy Cisco switch-en?
+A, VLAN1
+B, VLAN100
+C, VLAN999
+D, VLAN99
+Helyes válasz: VLAN1
+
+5. Ha egy állomásnevet a Cisco CLI segítségével állítunk be, melyik három elnevezési szabály része az irányelveknek? (Három jó válasz van.)
+A, Az állomásnév nem tartalmazhat szóközt.
+B, Az állomásnév betűvel kell, hogy kezdődjön.
+C, Az állomásnévnek 64 karakternél rövidebbnek kell lennie.
+D, Az állomásnevet mindig kisbetűkkel kell írni.
+E, Az állomásnévnek egy speciális karakterrel kell végződnie.
+Helyes válasz: A,B,C
+
+6. Mi a funkciója a parancshéjnak egy operációs rendszerben?
+A, Ez működik együtt az eszköz hardverével.
+B, Ez biztosítja az eszköz behatolás-védelmi szolgáltatásait.
+C, Dedikált tűzfal szolgáltatásokat nyújt.
+D, Ez egy interfész a felhasználók és a kernel között.
+Helyes válasz: D
+
+7.Egy érvényes operációs rendszerrel rendelkező router az NVRAM-ban tárolt konfigurációs fájlt tartalmaz. A konfigurációs fájl enable titkos jelszót tartalmaz, de konzoljelszó nincs beállítva. Rendszerindulás után melyik mód jelenik meg a routeren?
+A, Privilegizált EXEC mód.
+B, Felhasználói EXEC mód.
+C, Setup mode
+D, Globális konfigurációs mód.
+Helyes válasz: B
+
+8.A rendszergazda megváltoztatta egy IOS eszköz egyik interfészének IP-címét. Mi egyebet kell tennie, hogy a változtatások életbe lépjenek?
+A,Újraindítani az eszközt, majd beírni, hogy yes amikor kérdezi, hogy mentsük-e a konfigurációt.
+B, A futó konfigurációt az indító konfigurációba kell másolni.
+C, Az indító konfiguráció tartalmát a futó konfigurációba kell másolni.
+D, Semmit nem kell tenni. IOS-t futtató eszköz esetén a konfiguráció változtatásai azonnal érvényre jutnak, amint egy helyesen beírt parancs után ENTER-t nyomunk.
+Helyes válasz: D
+
+9.A Cisco router vagy switch melyik memóriája veszíti el az összes tartalmat az eszköz újraindításakor?
+A, NVRAM
+B, RAM
+C, ROM
+D, flash
+Helyes válasz: B
+
+10. Miért adja ki egy technikus a copy startup-config running-config parancsot?
+A, Hogy eltávolítsa egy switch összes beállításait.
+B, Hogy egy megváltoztatott konfigurációt indítási konfigurációva tegyen.
+C, Hogy elmentsen egy aktív konfigurációt az NVRAM-ba.
+D, Hogy egy RAM-ba másoljon egy már létező konfigurációt.
+Helyes válasz: D
+
+
+
